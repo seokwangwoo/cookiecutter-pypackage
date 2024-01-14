@@ -51,6 +51,7 @@ pylint = "*"
 pytest = ">=7.2.0"{% endif %}
 sphinx = ">=5.3.0"
 black = "*"
+sphinx_rtd_theme = "*"
 
 {% if cookiecutter.command_line_interface|lower == 'click' -%}
 [tool.poetry.scripts]
